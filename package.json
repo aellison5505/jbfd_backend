@@ -1,0 +1,22 @@
+{
+  "name": "jbmdl_app_service",
+  "version": "0.0.1",
+  "description": "JBMDL User BAckend",
+  "main": "./build/index.js",
+  "scripts": {
+    "local": "node ./build/local.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anthony Ellison <aellison@mobilewebapp.net> (www.mobilewebapp.net)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-serverless-express": "^3.0.2",
+    "express": "^4.16.2",
+    "typescript": "^2.6.2",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^8.2.6",
+    "rollup-plugin-node-resolve": "^3.0.2"
+  }
+}
